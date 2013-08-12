@@ -1,0 +1,15 @@
+CREATE  TABLE `crud`.`pessoa` (
+
+  `id_pessoa` INT NOT NULL AUTO_INCREMENT ,
+
+  `nome_pessoa` VARCHAR(50) NOT NULL ,
+
+  `sobrenome_pessoa` VARCHAR(45) NOT NULL ,
+
+  `data_nascimento_pessoa` VARCHAR(10) NOT NULL ,
+
+  `sexo_pessoa` CHAR NOT NULL ,
+
+  `email_pessoa` VARCHAR(45) NOT NULL ,
+
+  PRIMARY KEY (`id_pessoa`) );
